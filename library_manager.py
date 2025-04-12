@@ -65,7 +65,7 @@ def load_library():
                 return True
             return False
     except Exception as e:
-        st.error("Error loading library: {e}")
+        st.error(f"Error loading library: {e}")
         return False
 
 #save library
