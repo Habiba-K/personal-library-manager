@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import json
 import os
-import datetime import datatime
+from datetime import datetime
 import time
 import random
 import plotly.express as px
@@ -81,9 +81,9 @@ def save_library():
 #add a book to library
 def add_book(title, author, publication_year, genre, read_status):
     book ={
-        'title' = title,
-        'author' = author,
-        'publication_year'= publication_year,
+        'title' :title,
+        'author' : author,
+        'publication_year': publication_year,
         'genre':genre,
         'read_status':read_status,
         'added_date':datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -126,7 +126,7 @@ def get_library_stats():
     authors = {}
     decades = {}
 
-    for book in st.session_state.library
+    for book in st.session_state.library:
         if book['genre'] in genres:
             genres[book['genre']] +=1
         else:
@@ -290,14 +290,14 @@ elif st.session_state.current_view == "library":
                 with col2:
                     new_status = not book['read_status']
                     status_label = "Mark as read" if not book['read_status'] else "Mark as Unread"
-                    if st.button(status_label, key= f"status_{i}" , use_container_width=True)  
+                    if st.button(status_label, key= f"status_{i}" , use_container_width=True): 
                         st.session_state.library[i]['read_status'] = new_status
                         save_library()
                         st.rerun()
     if st.session_state.book_removed:
         st.markdown("<div class='success-message'> Book removed successfully!<div>",unsafe_allow_html=True)
         st.session_state.book_removed = False
- elif st.session_state.current_view == "search":
+elif st.session_state.current_view == "search":
     st.markdown("<h2 class='sub-header'> search books</h2>", unsafe_allow_html=True)
     
     search_by = st.selectbox("Search by:" , ["Title","Author", "Genre"])
