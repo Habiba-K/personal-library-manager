@@ -138,15 +138,4 @@ Library saved to file. Goodbye!
 
 ----------
 
-## Tips
-
-1.  Start by implementing the core features first.
-2.  Test each feature individually before moving to the next.
-3.  Use comments to explain your code.
-4.  Have fun and be creative!
-
-Once you are done submit this form ASAP:
-
-https://forms.gle/tS7C3sr55tUZ36GY8 
-
 Good luck! 🚀***
