@@ -214,7 +214,7 @@ def create_visualizations(stats):
         st.plotly_chart(fig_decades,use_container_width=True)
 #load library
 load_library()
-st.sidebar.markdown("<h1 style='text-align:center;> Navigation</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align:center;'> Navigation</h1>", unsafe_allow_html=True)
 lottie_book = load_lottieurl("https://assests9.lottiefiles.com/temp/1f20_aKAfIn.json")
 if lottie_book:
     with st.sidebar:
