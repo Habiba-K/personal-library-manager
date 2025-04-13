@@ -89,7 +89,7 @@ st.markdown("""
 def load_lottieurl(url):
     try:
         r = requests.get(url)
-        if r.status_code != 200:
+        if r.status_code != 500:
             return None
         return r.json()
     except:
