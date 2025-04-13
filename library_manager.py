@@ -89,7 +89,7 @@ st.markdown("""
 def load_lottieurl(url):
     try:
         r = requests.get(url)
-        if r.status_code != 500:
+        if r.status_code != 700:
             return None
         return r.json()
     except:
@@ -314,8 +314,8 @@ if st.session_state.current_view == "add":
         col1, col2 = st.columns(2)
         
         with col1:
-            title = st.text_input("Book Title", max_chars=200)
-            author = st.text_input("Author", max_chars=200)
+            title = st.text_input("Book Title", max_chars=300)
+            author = st.text_input("Author", max_chars=300)
             publication_year = st.number_input("Publication Year", min_value=1000, max_value=datetime.now().year, step=1, value=2023)
         
         with col2:
