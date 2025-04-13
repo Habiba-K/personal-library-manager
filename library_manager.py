@@ -303,7 +303,7 @@ elif nav_options == "Library Statistics":
 
 
 # Application header
-st.markdown("<h1 class='main-header'>📚 Personal Library Manager</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-header'>Personal Library Manager</h1>", unsafe_allow_html=True)
 
 # Handle views based on current selection
 if st.session_state.current_view == "add":
@@ -314,8 +314,8 @@ if st.session_state.current_view == "add":
         col1, col2 = st.columns(2)
         
         with col1:
-            title = st.text_input("Book Title", max_chars=100)
-            author = st.text_input("Author", max_chars=100)
+            title = st.text_input("Book Title", max_chars=200)
+            author = st.text_input("Author", max_chars=200)
             publication_year = st.number_input("Publication Year", min_value=1000, max_value=datetime.now().year, step=1, value=2023)
         
         with col2:
