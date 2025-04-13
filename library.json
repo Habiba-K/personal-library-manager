@@ -9,7 +9,7 @@
   },
   {
     "title":"Node.js Design Patterns",
-    "author": "Mario Casciaro",
+    "author": "Mario Casciaro , Luciano Mammino",
     "publication_year": 2020,
     "genre":"Programming",
     "read_status": true,
@@ -27,14 +27,6 @@
     "title":"HTML and CSS: Design and Build Websites",
     "author": "Jon Duckett",
     "publication_year": 2011,
-    "genre":"Programming",
-    "read_status": true,
-    "added_data": "2025-03-11 11:58:10"
-  },
-  {    
-    "title":"Building Interfaces with Tailwind CSS",
-    "author": "Adam Wathan and Steve Schoger",
-    "publication_year": 2020,
     "genre":"Programming",
     "read_status": true,
     "added_data": "2025-03-11 11:58:10"
