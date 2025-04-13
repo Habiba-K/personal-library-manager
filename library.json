@@ -1,43 +1,35 @@
 [
   {
-    "title": "Python Crash Course",
-    "author": "Eric Matthes", 
+    "title":"pyhton crash course",
+    "author": "Eric Matthes",
     "publication_year": 2019,
-    "genre": "Programming / Python",
+    "genre":"Programming",
     "read_status": false,
-    "added_data": "2025-03-01 11:36:40"
+    "added_data": "2025-03-11 11:36:40"
   },
   {
-    "title": "Node.js Design Patterns",
-    "author": "Mario Casciaro, Luciano Mammino", 
-    "publication_year": 2020,
-    "genre": "Programming / Node.js",
-    "read_status": true,
-    "added_data": "2025-02-02 11:30:10"
-  },
-  {
-    "title": "Learning JavaScript Design Patterns",
-    "author": "Addy Osmani", 
-    "publication_year": 2021,
-    "genre": "Programming / JavaScript",
-    "read_status": false,
-    "added_dat": "2025-03-10 12:30:30"
-  },
-  {
-    "title": "HTML and CSS: Design and Build Websites",
-    "author": "Jon Duckett", 
+    "title":"Automate the boring stuff with python",
+    "author": "Fiza Sagar",
     "publication_year": 2011,
-    "genre": "Web Development / HTML & CSS",
+    "genre":"Programming",
     "read_status": true,
-    "added_dat": "2025-02-05 01:30:10"
+    "added_data": "2025-03-11 11:45:80"
   },
   {
-    "title": "Building Interfaces with Tailwind CSS",
-    "author": "Adam Wathan, Steve Schoger", 
-    "publication_year": 2020,
-    "genre": "Web Design / CSS / Tailwind CSS",
-    "read_status": true,
-    "added_data": "2025-01-05 10:30:00"
+    "title":"Fluent Python",
+    "author": "Ramalho",
+    "publication_year": 2022,
+    "genre":"Programming",
+    "read_status": false,
+    "added_data": "2025-03-11 11:55:20"
   },
-]
+  {    
+    "title":"Effective Python",
+    "author": "Brett Slatkin",
+    "publication_year": 2020,
+    "genre":"Programming",
+    "read_status": true,
+    "added_data": "2025-03-11 11:58:10"
     
+  }
+]
